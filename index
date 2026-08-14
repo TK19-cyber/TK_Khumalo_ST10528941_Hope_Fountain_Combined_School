@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOME PAGE</title>
+</head>
+
+<body>
+
+<header>
+
+    <!-- Header is the top section of the webpage -->
+    <div>
+
+        <h1>Hope Fountain Combined School</h1>
+
+        <p>Hillbrow, Johannesburg</p>
+
+        <!-- Navigation contains links to the other pages -->
+        <nav>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+
+                <li>
+                    <a href="about.html">ABOUT US</a>
+                </li>
+
+                <li>
+                    <a href="academics.html">ACADEMICS</a>
+                </li>
+
+                <li>
+                    <a href="sports.html">SPORTS</a>
+                </li>
+
+                <li>
+                    <a href="enquiry.html">ENQUIRY</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">CONTACT US</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- Main content -->
+<main>
+
+    <section>
+
+        <h2>Welcome to Hope Fountain Combined School</h2>
+
+        <!-- School image -->
+        <img src="images/School.jpg"
+             width="600"
+             alt="Hope Fountain Combined School">
+
+        <p>
+            Welcome to Hope Fountain Combined School.
+            We are a school based in Hillbrow, Johannesburg.
+            Our aim is to provide learners with a positive
+            environment where they can learn and grow.
+        </p>
+
+        <p>
+            The school provides learners with academic
+            opportunities, sports and other activities.
+        </p>
+
+        <a href="about.html">Learn More About Us</a>
+
+    </section>
+
+    <section>
+
+        <h2>About Our School</h2>
+
+        <p>
+            Hope Fountain Combined School supports learners
+            in their education and personal development.
+            Learners are encouraged to work hard, respect
+            others and take part in school activities.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>What We Offer</h2>
+
+        <h3>Education</h3>
+
+        <p>
+            Learners receive education in different
+            subjects and develop their knowledge and skills.
+        </p>
+
+        <h3>Sports</h3>
+
+        <p>
+            Learners can take part in sports and activities
+            that encourage teamwork and confidence.
+        </p>
+
+        <h3>Community</h3>
+
+        <p>
+            The school provides a positive environment
+            for learners, parents and teachers.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>School Information</h2>
+
+        <p>
+            Hope Fountain Combined School is located in
+            Hillbrow, Johannesburg.
+        </p>
+
+        <p>
+            Visit our Contact page for more information.
+        </p>
+
+        <a href="contact.html">Contact Us</a>
+
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer>
+
+    <p>© 2026 Hope Fountain Combined School</p>
+
+</footer>
+
+</body>
+
+</html>
