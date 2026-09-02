@@ -1,18 +1,30 @@
 # TK_Khumalo_ST10528941_Hope_Fountain_Combined_School
 
-# project Title: Hope fountain combined school
+## project Title: Hope fountain combined school
+**My Project**
+My project is about a website of a school that helps you enroll or enquire more information about the school.
 
-## Student information : ST10528941
-Student Full Name: Wandile Troy Khumalo
-Group : Year1 Group 4
-Module : Web Development (Introduction)
-Module Code : WEDE5020
+---
+ 
+## Student information :
+
+|---|---|
+| Student Number | ST10528941 |
+|Student Full Name| Wandile Troy Khumalo |
+|Group | Year1 Group 4 |
+|Module | Web Development (Introduction)|
+|Module Code | WEDE5020 |
+
+---
 
 
 ## Project Overview
+
 Hope Fountain Combined School is a school based in Hillbrow, Johannesburg. The school provides education to learners from the surrounding community. The school aims to provide learners with a supportive environment where they can learn, develop their skills and prepare for their future. 
 
-The school provides learners with academic education as well as opportunities to participate in sports and other activities. The proposed website will provide learners, parents, guardians and members of the community with information about the school.  
+The school provides learners with academic education as well as opportunities to participate in sports and other activities. The proposed website will provide learners, parents, guardians and members of the community with information about the school. 
+
+---
 
 ## Website Goals and Objectives
 Goals 
