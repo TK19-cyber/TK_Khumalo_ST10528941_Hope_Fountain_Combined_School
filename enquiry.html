@@ -2,130 +2,82 @@
 <html>
 
 <head>
-    <title>ENQUIRY</title>
+    <title>Enquiry - Hope Fountain Combined School</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<header>
-
-    <!-- Header is the top section of the webpage -->
-    <div>
-
+    <header>
         <h1>Hope Fountain Combined School</h1>
-
         <p>Hillbrow, Johannesburg</p>
+    </header>
 
-        <!-- Navigation contains links to the other pages -->
-        <nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="academics.html">Academics</a>
+        <a href="sports.html">Sports</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-            <ul>
+    <main>
 
-                <li>
-                    <a href="index.html">HOME</a>
-                </li>
+        <section>
 
-                <li>
-                    <a href="about.html">ABOUT US</a>
-                </li>
+            <h2>Make an Enquiry</h2>
 
-                <li>
-                    <a href="academics.html">ACADEMICS</a>
-                </li>
+            <p>
+                Complete the form below if you have any questions
+                about admissions, academics, sports or the school
+                in general.
+            </p>
 
-                <li>
-                    <a href="sports.html">SPORTS</a>
-                </li>
+            <form id="enquiryForm">
 
-                <li>
-                    <a href="enquiry.html">ENQUIRY</a>
-                </li>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" required>
 
-                <li>
-                    <a href="contact.html">CONTACT US</a>
-                </li>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" required>
 
-            </ul>
+                <label for="type">Enquiry Type:</label>
 
-        </nav>
+                <select id="type" required>
+                    <option value="">Select an option</option>
+                    <option value="Admissions">Admissions</option>
+                    <option value="Academics">Academics</option>
+                    <option value="Sports">Sports</option>
+                    <option value="General Question">General Question</option>
+                </select>
 
-    </div>
+                <label for="message">Message:</label>
 
-</header>
+                <textarea id="message"
+                    rows="5"
+                    placeholder="Write your enquiry here..."
+                    required></textarea>
 
-<!-- Main content of the webpage -->
-<main>
+                <button type="submit" class="button">
+                    Submit Enquiry
+                </button>
 
-    <section>
+            </form>
 
-        <h2>Make an Enquiry</h2>
+            <p id="result"></p>
 
-        <p>
-            Complete the form below if you have any questions
-            about admissions, academics, sports or the school.
-        </p>
+        </section>
 
-        <!-- Enquiry form -->
-        <form id="enquiryForm">
+    </main>
 
-            <label>Full Name:</label>
-            <input type="text" id="name" required>
+    <footer>
+        <p>© 2026 Hope Fountain Combined School</p>
+    </footer>
 
-            <br><br>
-
-            <label>Email Address:</label>
-            <input type="email" id="email" required>
-
-            <br><br>
-
-            <label>Enquiry Type:</label>
-
-            <select id="type" required>
-
-                <option value="">Select an option</option>
-                <option>Admissions</option>
-                <option>Academics</option>
-                <option>Sports</option>
-                <option>General Question</option>
-
-            </select>
-
-            <br><br>
-
-            <label>Message:</label>
-
-            <br>
-
-            <textarea id="message"
-                rows="5"
-                placeholder="Write your enquiry here..."
-                required></textarea>
-
-            <br><br>
-
-            <button type="submit">
-                Submit Enquiry
-            </button>
-
-        </form>
-
-        <!-- JavaScript result message -->
-        <p id="result"></p>
-
-    </section>
-
-</main>
-
-<!-- Footer is the bottom section of the webpage -->
-<footer>
-
-    <p>© 2026 Hope Fountain Combined School</p>
-
-</footer>
-
-<!-- Links JavaScript file -->
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
 </html>
+```
