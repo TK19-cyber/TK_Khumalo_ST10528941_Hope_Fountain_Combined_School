@@ -51,3 +51,9 @@ The success of the website can be measured by the number of people who visit the
 The website can also be measured by checking whether visitors can successfully move between all six pages. Another important measure will be whether the website works correctly on different screen sizes and browsers.
 
 
+
+
+###Part 2 Details
+ I Applied CSS Styling CSS to style the layout, typography, and colour scheme.
+Created a Responsive Design Ensured my website adapts seamlessly to different screen sizes and devices.
+Optimised for User Experience Considerd factors like readability, navigation, and accessibility.
