@@ -1,8 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Enquiry - Hope Fountain Combined School</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>School Enquiries and Admissions | Hope Fountain Combined School</title>
+
+    <meta name="description"
+        content="Contact Hope Fountain Combined School in Hillbrow, Johannesburg, for enquiries about admissions, academics, sports and school information.">
+
+    <meta name="keywords"
+        content="Hope Fountain Combined School, school admissions, school enquiries, Hillbrow Johannesburg, school academics, school sports">
+
+    <meta name="author" content="Hope Fountain Combined School">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -18,14 +30,13 @@
         <a href="about.html">About Us</a>
         <a href="academics.html">Academics</a>
         <a href="sports.html">Sports</a>
-        <a href="enquiry.html">Enquiry</a>
+        <a href="enquiry.html" aria-current="page">Enquiry</a>
         <a href="contact.html">Contact</a>
     </nav>
 
     <main>
 
         <section>
-
             <h2>Make an Enquiry</h2>
 
             <p>
@@ -37,14 +48,14 @@
             <form id="enquiryForm">
 
                 <label for="name">Full Name:</label>
-                <input type="text" id="name" required>
+                <input type="text" id="name" name="name" minlength="2" maxlength="80" required>
 
                 <label for="email">Email Address:</label>
-                <input type="email" id="email" required>
+                <input type="email" id="email" name="email" required>
 
                 <label for="type">Enquiry Type:</label>
 
-                <select id="type" required>
+                <select id="type" name="type" required>
                     <option value="">Select an option</option>
                     <option value="Admissions">Admissions</option>
                     <option value="Academics">Academics</option>
@@ -54,10 +65,8 @@
 
                 <label for="message">Message:</label>
 
-                <textarea id="message"
-                    rows="5"
-                    placeholder="Write your enquiry here..."
-                    required></textarea>
+                <textarea id="message" name="message" rows="5" minlength="10" maxlength="1000"
+                    placeholder="Write your enquiry here..." required></textarea>
 
                 <button type="submit" class="button">
                     Submit Enquiry
@@ -65,7 +74,7 @@
 
             </form>
 
-            <p id="result"></p>
+            <p id="result" aria-live="polite"></p>
 
         </section>
 
@@ -80,4 +89,3 @@
 </body>
 
 </html>
-
