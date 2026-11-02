@@ -1,8 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Academics - Hope Fountain Combined School</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Academics | Hope Fountain Combined School</title>
+
+    <meta name="description"
+        content="Learn about academics, school subjects and academic support at Hope Fountain Combined School in Hillbrow, Johannesburg.">
+
+    <meta name="keywords" content="Hope Fountain Combined School, school subjects, academics, Hillbrow Johannesburg">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -45,11 +54,19 @@
 
             <p>
                 Learners study different subjects as part of their
-                school education. The subjects help learners develop
-                different skills and knowledge.
+                school education. Search below to find a subject.
             </p>
 
-            <ul class="subject-list">
+            <label for="subjectSearch">Search for a subject:</label>
+
+            <input type="text" id="subjectSearch" placeholder="Type a subject name..." oninput="searchSubjects()"
+                aria-describedby="searchMessage">
+
+            <p id="searchMessage" aria-live="polite">
+                Showing all subjects.
+            </p>
+
+            <ul class="subject-list" id="subjectList">
                 <li>English</li>
                 <li>Mathematics</li>
                 <li>Natural Sciences</li>
@@ -96,9 +113,28 @@
 
         <section class="notice">
 
-            <h3>Important Information</h3>
+            <h2>Important Information</h2>
 
             <p>
                 Subject information, grades and school programmes
-                should be confirmed with the school before the
-```
+                should be confirmed with the school before making
+                decisions about enrolment.
+            </p>
+
+            <a class="button" href="contact.html">
+                Contact the School
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Hope Fountain Combined School</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
