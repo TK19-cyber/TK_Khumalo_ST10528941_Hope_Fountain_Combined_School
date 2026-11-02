@@ -1,8 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Contact - Hope Fountain Combined School</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Hope Fountain Combined School, Johannesburg</title>
+
+    <meta name="description"
+        content="Find the address, telephone numbers and location of Hope Fountain Combined School in Hillbrow, Johannesburg, South Africa.">
+
+    <meta name="keywords"
+        content="Hope Fountain Combined School contact, school address, Hillbrow Johannesburg, school telephone number">
+
+    <meta name="author" content="Hope Fountain Combined School">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -19,19 +31,17 @@
         <a href="academics.html">Academics</a>
         <a href="sports.html">Sports</a>
         <a href="enquiry.html">Enquiry</a>
-        <a href="contact.html">Contact</a>
+        <a href="contact.html" aria-current="page">Contact</a>
     </nav>
 
     <main>
 
         <section>
-
             <h2>Contact Us</h2>
 
             <div class="cards">
 
                 <div class="card">
-
                     <h3>School Address</h3>
 
                     <p>
@@ -42,15 +52,14 @@
                     </p>
 
                     <p>
-                        Telephone: 010 448 0914<br>
-                        078 901 0802<br>
-                        073 111 2754
+                        Telephone:
+                        <a href="tel:0104480914">010 448 0914</a><br>
+                        <a href="tel:0789010802">078 901 0802</a><br>
+                        <a href="tel:0731112754">073 111 2754</a>
                     </p>
-
                 </div>
 
                 <div class="card">
-
                     <h3>School Office</h3>
 
                     <p>
@@ -59,62 +68,120 @@
                     </p>
 
                     <p>
-                        Telephone: 010 448 0914
+                        Telephone:
+                        <a href="tel:0104480914">010 448 0914</a>
                     </p>
 
+                    <p>
+                        Email:
+                        <a href="mailto:hopefountaincombinedschool@gmail.com">
+                            hopefountaincombinedschool@gmail.com
+                        </a>
+                    </p>
                 </div>
 
             </div>
-
         </section>
 
         <section>
-
             <h2>Our Locations</h2>
 
             <div class="cards">
 
                 <div class="card">
-
                     <h3>Location 1: School</h3>
 
-                    <p>
-                        Hillbrow, Johannesburg
-                    </p>
+                    <p>Hillbrow, Johannesburg</p>
 
                     <a class="button"
-                       href="https://www.google.com/maps/search/?api=1&query=Hope+Fountain+Combined+School+Hillbrow+Johannesburg"
-                       target="_blank">
+                        href="https://www.google.com/maps/search/?api=1&query=Hope+Fountain+Combined+School+Hillbrow+Johannesburg"
+                        target="_blank" rel="noopener noreferrer">
                         View School Location
                     </a>
-
                 </div>
 
                 <div class="card">
-
                     <h3>Location 2: Johannesburg</h3>
 
-                    <p>
-                        Johannesburg, Gauteng
-                    </p>
+                    <p>Johannesburg, Gauteng</p>
 
-                    <a class="button"
-                       href="https://www.google.com/maps/search/?api=1&query=Johannesburg+Gauteng"
-                       target="_blank">
+                    <a class="button" href="https://www.google.com/maps/search/?api=1&query=Johannesburg+Gauteng"
+                        target="_blank" rel="noopener noreferrer">
                         View Johannesburg
                     </a>
-
                 </div>
 
             </div>
-
         </section>
 
         <section class="notice">
-
-            <h3>Need More Information?</h3>
+            <h2>Need More Information?</h2>
 
             <p>
                 If you need more information about the school,
-                please use our Enquiry page or contact the school
-```
+                please visit our Enquiry page or contact the school office.
+            </p>
+
+            <a class="button" href="enquiry.html">
+                Make an Enquiry
+            </a>
+        </section>
+
+        <section>
+            <h2>Send Us a Message</h2>
+
+            <p>
+                Complete this form to send a general message
+                to Hope Fountain Combined School.
+            </p>
+
+            <form id="contactForm" action="https://formsubmit.co/wandiletroy24@gmail.com" method="POST">
+
+                <input type="hidden" name="_subject" value="New Message - Hope Fountain Combined School">
+
+                <input type="hidden" name="_captcha" value="true">
+
+                <label for="contactName">Full Name:</label>
+                <input type="text" id="contactName" name="name" minlength="2" maxlength="80" required>
+
+                <label for="contactEmail">Email Address:</label>
+                <input type="email" id="contactEmail" name="email" required>
+
+                <label for="contactPhone">Phone Number:</label>
+                <input type="tel" id="contactPhone" name="phone" pattern="[0-9+() -]{7,20}"
+                    title="Enter a phone number using 7 to 20 characters." required>
+
+                <label for="contactType">Message Type:</label>
+                <select id="contactType" name="messageType" required>
+                    <option value="">Select a message type</option>
+                    <option value="General Question">General Question</option>
+                    <option value="Admissions">Admissions</option>
+                    <option value="Academics">Academics</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="contactMessage">Your Message:</label>
+                <textarea id="contactMessage" name="message" rows="5" minlength="10" maxlength="2000"
+                    placeholder="Write your message here..." required></textarea>
+
+                <button type="submit" class="button">
+                    Send Message
+                </button>
+
+            </form>
+
+            <p id="contactResult" aria-live="polite"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Hope Fountain Combined School</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
